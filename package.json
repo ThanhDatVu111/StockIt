@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.9.2",
+    "@types/numeral": "^2.0.5",
+    "@types/uuid": "^10.0.0"
+  }
+}
