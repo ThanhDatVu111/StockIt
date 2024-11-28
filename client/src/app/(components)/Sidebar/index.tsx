@@ -44,11 +44,11 @@ const SidebarLink = ({
         className={`cursor-pointer flex items-center ${
           isCollapsed ? "justify-center py-4" : "justify-start px-10 py-5"
         }
-        hover:text-blue-500 hover:bg-[#eaece9] gap-3 transition-colors ${
-          isActive ? "bg-[#eaece9] text-white" : ""
+        hover:text-blue-500 hover:bg-[#aca192] gap-3 transition-colors ${
+          isActive ? "bg-[#aca192] text-white" : ""
         }
       }`}
-      > 
+      >
         <Icon className="w-6 h-6 !text-gray-700" />
 
         <span
@@ -86,8 +86,8 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
-          alt="edstock-logo"
+          src="/logo.png"
+          alt="stockit-logo"
           width={27}
           height={27}
           className="rounded w-8"
